@@ -1,6 +1,36 @@
 == DB ROCKET
 
-== Copyright
+A simple database agnostic import/export app to transfer data to/from a remote database from Ruby on Rails APP based on TAPS.
+
+== Usage: Server
+
+The first thing that you need is create yaml configuration for add the data for access to the server, so into your app rails run:
+
+#db_rocket create
+
+this going to create yaml called config/db_rocket.yml. Fill this file and run
+
+#db_rocket server:start
+
+and this is all
+
+== Usage: Client
+
+for push your db to the server you can do:
+
+#db_rocket push
+
+or for get the db from your server you can do:
+
+#db_rocket pull
+
+== Options
+
+--environment production - by default db_rocket get from RAILS_ENV
+--tables logs,tags - specify the tables
+--filter '^log_'
+
+=== Copyright
 
 Copyright (c) 2010 Mauro Torres. See LICENSE for details.
 
