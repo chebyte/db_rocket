@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.dirname(__FILE__) + '/../lib/db_rockets/cli/')
+
+require 'rubygems'
+require 'init'
+
+args = ARGV.dup
+ARGV.clear
+command = args.shift.strip rescue 'help'
+
+if File.exists?('config/environment.rb')
+  DBRocket::Command.run(command, args)
+else
+  puts "app rails not found!, you need stay inside on the root of one rails app"
+end
+

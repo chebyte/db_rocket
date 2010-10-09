@@ -1,0 +1,8 @@
+= selenium_shots
+
+http://www.seleniumshots.com
+Selenium Shots is an Integration Testing Service that transparently distributes your integration tests across multiple operating systems with different versions of all major browsers AND captures a screen shot. This eliminates the need to have multiple vm's on your computer or the need for multiple machines on your test to test your web application.  Running your tests remotely will dramatically speed up in-browser web testing and leave more time to  and create a slide show available to confirm visuals making it easy for you to improve your web application.
+
+== Copyright
+
+Copyright (c) 2010 Kyle Ginavan. See LICENSE for details.
