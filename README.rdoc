@@ -10,15 +10,15 @@ The first thing that you need is create yaml configuration for add the data for 
 
 this going to create yaml called config/db_rocket.yml. Fill this file
 
-common: &common
-  server: ip-server
-  port: 5000
-  http_user: mauro
-  http_password: chebyte
-development:
-  <<: *common
-production:
-  <<: *common
+ common: &common
+   server: ip-server
+   port: 5000
+   http_user: mauro
+   http_password: chebyte
+ development:
+   <<: *common
+ production:
+   <<: *common
 
 then run
 
