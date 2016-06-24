@@ -48,3 +48,5 @@ or for get the db from your server you can do:
 
 Copyright (c) 2010 Mauro Torres. See LICENSE for details.
 
+
+{<img src="https://beerpay.io/chebyte/db_rocket/badge.svg?style=beer-square" />}[https://beerpay.io/chebyte/db_rocket]
